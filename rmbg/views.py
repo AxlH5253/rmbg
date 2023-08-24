@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 from PIL import Image
 from .rmbg import remove_background
 
-@api_view(['POST'])
+@api_view(['POST', 'GET'])
 def upload_image(request, format=None):
     if(request.method == 'POST'):
         try:
@@ -13,4 +13,5 @@ def upload_image(request, format=None):
             return JsonResponse({'status': 200, 'data': output_image, 'message': 'success'}, status=200)
         except Exception as e:
             return JsonResponse({'status': 500, 'message': e }, status=500)
-        
+    elif(request.method == 'GET'):
+        return JsonResponse({'status': 200, 'message': 'success'}, status=200)
