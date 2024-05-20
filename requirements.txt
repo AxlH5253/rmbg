@@ -7,7 +7,7 @@ django-cors-headers==4.2.0
 djangorestframework==3.14.0
 flatbuffers==23.5.26
 humanfriendly==10.0
-# idna==3.4
+idna==3.4
 # imageio==2.31.1
 # lazy_loader==0.3
 # llvmlite==0.40.1
