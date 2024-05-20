@@ -5,7 +5,7 @@ coloredlogs==15.0.1
 Django==4.2.4
 django-cors-headers==4.2.0
 djangorestframework==3.14.0
-# flatbuffers==23.5.26
+flatbuffers==23.5.26
 # humanfriendly==10.0
 # idna==3.4
 # imageio==2.31.1
