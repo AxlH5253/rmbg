@@ -32,6 +32,6 @@ requests==2.31.0
 sqlparse==0.4.4
 sympy==1.12
 tifffile==2023.8.12
-tqdm==4.66.1
-# typing_extensions==4.7.1
+# tqdm==4.66.1
+typing_extensions==4.7.1
 # urllib3==1.26.6
