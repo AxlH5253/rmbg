@@ -22,8 +22,8 @@ Pillow==10.0.0
 platformdirs==3.10.0
 pooch==1.7.0
 protobuf==4.24.0
-PyMatting==1.1.8
-# pytz==2023.3
+# PyMatting==1.1.8
+pytz==2023.3
 # PyWavelets==1.4.1
 # rembg==2.0.50
 # requests==2.31.0
